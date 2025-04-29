@@ -1,0 +1,2087 @@
+
+// Generated Topology file for the tree network simulation
+// with 8 clients, one server and one central router
+//
+// The network has a star topology with one central router
+// to which every node is connected via a separate LAN
+// link/segment.
+// Alternatively, all nodes may be connected to the same
+// LAN segment, resulting in the same, but bandwidth limited,
+// network topology.
+
+compile = "network_simulation.c"
+
+messagerate = 1000ms
+maxmessagesize = 2KB
+
+
+// Size of the network provided to the protocol implementation.
+// sizeofnetwork = nodeN + 1
+//sizeofnetwork = 4
+// This is provided by NNODES if -N switch is used
+
+
+// WAN links
+// Each node is connected to the central router via an own
+// WAN link. It is named by the node.
+// LAN segments may be used instead, but as every connection
+// is one-to-one, there should be no difference.
+// To simulate a vehicular LAN segment, 100Mbps bandwidth
+// and 1ms latency is defined.
+wan-bandwidth   = 100Mbps
+wan-propagationdelay = 1ms
+
+
+// Central router
+host node0 {
+//router node0 {
+	wan to node1 {}
+	wan to node2 {}
+	wan to node3 {}
+	wan to node4 {}
+	wan to node5 {}
+	wan to node6 {}
+	wan to node7 {}
+	wan to node8 {}
+	wan to node9 {}
+	wan to node10 {}
+	wan to node11 {}
+	wan to node12 {}
+	wan to node13 {}
+	wan to node14 {}
+	wan to node15 {}
+	wan to node16 {}
+	wan to node17 {}
+	wan to node18 {}
+	wan to node19 {}
+	wan to node20 {}
+	wan to node21 {}
+	wan to node22 {}
+	wan to node23 {}
+	wan to node24 {}
+	wan to node25 {}
+	wan to node26 {}
+	wan to node27 {}
+	wan to node28 {}
+	wan to node29 {}
+	wan to node30 {}
+	wan to node31 {}
+	wan to node32 {}
+	wan to node33 {}
+	wan to node34 {}
+	wan to node35 {}
+	wan to node36 {}
+	wan to node37 {}
+	wan to node38 {}
+	wan to node39 {}
+	wan to node40 {}
+	wan to node41 {}
+	wan to node42 {}
+	wan to node43 {}
+	wan to node44 {}
+	wan to node45 {}
+	wan to node46 {}
+	wan to node47 {}
+	wan to node48 {}
+	wan to node49 {}
+	wan to node50 {}
+	wan to node51 {}
+	wan to node52 {}
+	wan to node53 {}
+	wan to node54 {}
+	wan to node55 {}
+	wan to node56 {}
+	wan to node57 {}
+	wan to node58 {}
+	wan to node59 {}
+	wan to node60 {}
+	wan to node61 {}
+	wan to node62 {}
+	wan to node63 {}
+	wan to node64 {}
+	wan to node65 {}
+	wan to node66 {}
+	wan to node67 {}
+	wan to node68 {}
+	wan to node69 {}
+	wan to node70 {}
+	wan to node71 {}
+	wan to node72 {}
+	wan to node73 {}
+	wan to node74 {}
+	wan to node75 {}
+	wan to node76 {}
+	wan to node77 {}
+	wan to node78 {}
+	wan to node79 {}
+	wan to node80 {}
+	wan to node81 {}
+	wan to node82 {}
+	wan to node83 {}
+	wan to node84 {}
+	wan to node85 {}
+	wan to node86 {}
+	wan to node87 {}
+	wan to node88 {}
+	wan to node89 {}
+	wan to node90 {}
+	wan to node91 {}
+	wan to node92 {}
+	wan to node93 {}
+	wan to node94 {}
+	wan to node95 {}
+	wan to node96 {}
+	wan to node97 {}
+	wan to node98 {}
+	wan to node99 {}
+	wan to node100 {}
+	wan to node101 {}
+	wan to node102 {}
+	wan to node103 {}
+	wan to node104 {}
+	wan to node105 {}
+	wan to node106 {}
+	wan to node107 {}
+	wan to node108 {}
+	wan to node109 {}
+	wan to node110 {}
+	wan to node111 {}
+	wan to node112 {}
+	wan to node113 {}
+	wan to node114 {}
+	wan to node115 {}
+	wan to node116 {}
+	wan to node117 {}
+	wan to node118 {}
+	wan to node119 {}
+	wan to node120 {}
+	wan to node121 {}
+	wan to node122 {}
+	wan to node123 {}
+	wan to node124 {}
+	wan to node125 {}
+	wan to node126 {}
+	wan to node127 {}
+	wan to node128 {}
+	wan to node129 {}
+	wan to node130 {}
+	wan to node131 {}
+	wan to node132 {}
+	wan to node133 {}
+	wan to node134 {}
+	wan to node135 {}
+	wan to node136 {}
+	wan to node137 {}
+	wan to node138 {}
+	wan to node139 {}
+	wan to node140 {}
+	wan to node141 {}
+	wan to node142 {}
+	wan to node143 {}
+	wan to node144 {}
+	wan to node145 {}
+	wan to node146 {}
+	wan to node147 {}
+	wan to node148 {}
+	wan to node149 {}
+	wan to node150 {}
+	wan to node151 {}
+	wan to node152 {}
+	wan to node153 {}
+	wan to node154 {}
+	wan to node155 {}
+	wan to node156 {}
+	wan to node157 {}
+	wan to node158 {}
+	wan to node159 {}
+	wan to node160 {}
+	wan to node161 {}
+	wan to node162 {}
+	wan to node163 {}
+	wan to node164 {}
+	wan to node165 {}
+	wan to node166 {}
+	wan to node167 {}
+	wan to node168 {}
+	wan to node169 {}
+	wan to node170 {}
+	wan to node171 {}
+	wan to node172 {}
+	wan to node173 {}
+	wan to node174 {}
+	wan to node175 {}
+	wan to node176 {}
+	wan to node177 {}
+	wan to node178 {}
+	wan to node179 {}
+	wan to node180 {}
+	wan to node181 {}
+	wan to node182 {}
+	wan to node183 {}
+	wan to node184 {}
+	wan to node185 {}
+	wan to node186 {}
+	wan to node187 {}
+	wan to node188 {}
+	wan to node189 {}
+	wan to node190 {}
+	wan to node191 {}
+	wan to node192 {}
+	wan to node193 {}
+	wan to node194 {}
+	wan to node195 {}
+	wan to node196 {}
+	wan to node197 {}
+	wan to node198 {}
+	wan to node199 {}
+	wan to node200 {}
+	wan to node201 {}
+	wan to node202 {}
+	wan to node203 {}
+	wan to node204 {}
+	wan to node205 {}
+	wan to node206 {}
+	wan to node207 {}
+	wan to node208 {}
+	wan to node209 {}
+	wan to node210 {}
+	wan to node211 {}
+	wan to node212 {}
+	wan to node213 {}
+	wan to node214 {}
+	wan to node215 {}
+	wan to node216 {}
+	wan to node217 {}
+	wan to node218 {}
+	wan to node219 {}
+	wan to node220 {}
+	wan to node221 {}
+	wan to node222 {}
+	wan to node223 {}
+	wan to node224 {}
+	wan to node225 {}
+	wan to node226 {}
+	wan to node227 {}
+	wan to node228 {}
+	wan to node229 {}
+	wan to node230 {}
+	wan to node231 {}
+	wan to node232 {}
+	wan to node233 {}
+	wan to node234 {}
+	wan to node235 {}
+	wan to node236 {}
+	wan to node237 {}
+	wan to node238 {}
+	wan to node239 {}
+	wan to node240 {}
+	wan to node241 {}
+	wan to node242 {}
+	wan to node243 {}
+	wan to node244 {}
+	wan to node245 {}
+	wan to node246 {}
+	wan to node247 {}
+	wan to node248 {}
+	wan to node249 {}
+	wan to node250 {}
+	wan to node251 {}
+	wan to node252 {}
+	wan to node253 {}
+	wan to node254 {}
+	wan to node255 {}
+	wan to node256 {}
+	wan to node257 {}
+	wan to node258 {}
+	wan to node259 {}
+	wan to node260 {}
+	wan to node261 {}
+	wan to node262 {}
+	wan to node263 {}
+	wan to node264 {}
+	wan to node265 {}
+	wan to node266 {}
+	wan to node267 {}
+	wan to node268 {}
+	wan to node269 {}
+	wan to node270 {}
+	wan to node271 {}
+	wan to node272 {}
+	wan to node273 {}
+	wan to node274 {}
+	wan to node275 {}
+	wan to node276 {}
+	wan to node277 {}
+	wan to node278 {}
+	wan to node279 {}
+	wan to node280 {}
+	wan to node281 {}
+	wan to node282 {}
+	wan to node283 {}
+	wan to node284 {}
+	wan to node285 {}
+	wan to node286 {}
+	wan to node287 {}
+	wan to node288 {}
+	wan to node289 {}
+	wan to node290 {}
+	wan to node291 {}
+	wan to node292 {}
+	wan to node293 {}
+	wan to node294 {}
+	wan to node295 {}
+	wan to node296 {}
+	wan to node297 {}
+	wan to node298 {}
+	wan to node299 {}
+	wan to node300 {}
+	wan to node301 {}
+	wan to node302 {}
+	wan to node303 {}
+	wan to node304 {}
+	wan to node305 {}
+	wan to node306 {}
+	wan to node307 {}
+	wan to node308 {}
+	wan to node309 {}
+	wan to node310 {}
+	wan to node311 {}
+	wan to node312 {}
+	wan to node313 {}
+	wan to node314 {}
+	wan to node315 {}
+	wan to node316 {}
+	wan to node317 {}
+	wan to node318 {}
+	wan to node319 {}
+	wan to node320 {}
+	wan to node321 {}
+	wan to node322 {}
+	wan to node323 {}
+	wan to node324 {}
+	wan to node325 {}
+	wan to node326 {}
+	wan to node327 {}
+	wan to node328 {}
+	wan to node329 {}
+	wan to node330 {}
+	wan to node331 {}
+	wan to node332 {}
+	wan to node333 {}
+	wan to node334 {}
+	wan to node335 {}
+	wan to node336 {}
+	wan to node337 {}
+	wan to node338 {}
+	wan to node339 {}
+	wan to node340 {}
+	wan to node341 {}
+	wan to node342 {}
+	wan to node343 {}
+	wan to node344 {}
+	wan to node345 {}
+	wan to node346 {}
+	wan to node347 {}
+	wan to node348 {}
+	wan to node349 {}
+	wan to node350 {}
+	wan to node351 {}
+	wan to node352 {}
+	wan to node353 {}
+	wan to node354 {}
+	wan to node355 {}
+	wan to node356 {}
+	wan to node357 {}
+	wan to node358 {}
+	wan to node359 {}
+	wan to node360 {}
+	wan to node361 {}
+	wan to node362 {}
+	wan to node363 {}
+	wan to node364 {}
+	wan to node365 {}
+	wan to node366 {}
+	wan to node367 {}
+	wan to node368 {}
+	wan to node369 {}
+	wan to node370 {}
+	wan to node371 {}
+	wan to node372 {}
+	wan to node373 {}
+	wan to node374 {}
+	wan to node375 {}
+	wan to node376 {}
+	wan to node377 {}
+	wan to node378 {}
+	wan to node379 {}
+	wan to node380 {}
+	wan to node381 {}
+	wan to node382 {}
+	wan to node383 {}
+	wan to node384 {}
+	wan to node385 {}
+	wan to node386 {}
+	wan to node387 {}
+	wan to node388 {}
+	wan to node389 {}
+	wan to node390 {}
+	wan to node391 {}
+	wan to node392 {}
+	wan to node393 {}
+	wan to node394 {}
+	wan to node395 {}
+	wan to node396 {}
+	wan to node397 {}
+	wan to node398 {}
+	wan to node399 {}
+	wan to node400 {}
+	wan to node401 {}
+	wan to node402 {}
+	wan to node403 {}
+	wan to node404 {}
+	wan to node405 {}
+	wan to node406 {}
+	wan to node407 {}
+	wan to node408 {}
+	wan to node409 {}
+	wan to node410 {}
+	wan to node411 {}
+	wan to node412 {}
+	wan to node413 {}
+	wan to node414 {}
+	wan to node415 {}
+	wan to node416 {}
+	wan to node417 {}
+	wan to node418 {}
+	wan to node419 {}
+	wan to node420 {}
+	wan to node421 {}
+	wan to node422 {}
+	wan to node423 {}
+	wan to node424 {}
+	wan to node425 {}
+	wan to node426 {}
+	wan to node427 {}
+	wan to node428 {}
+	wan to node429 {}
+	wan to node430 {}
+	wan to node431 {}
+	wan to node432 {}
+	wan to node433 {}
+	wan to node434 {}
+	wan to node435 {}
+	wan to node436 {}
+	wan to node437 {}
+	wan to node438 {}
+	wan to node439 {}
+	wan to node440 {}
+	wan to node441 {}
+	wan to node442 {}
+	wan to node443 {}
+	wan to node444 {}
+	wan to node445 {}
+	wan to node446 {}
+	wan to node447 {}
+	wan to node448 {}
+	wan to node449 {}
+	wan to node450 {}
+	wan to node451 {}
+	wan to node452 {}
+	wan to node453 {}
+	wan to node454 {}
+	wan to node455 {}
+	wan to node456 {}
+	wan to node457 {}
+	wan to node458 {}
+	wan to node459 {}
+	wan to node460 {}
+	wan to node461 {}
+	wan to node462 {}
+	wan to node463 {}
+	wan to node464 {}
+	wan to node465 {}
+	wan to node466 {}
+	wan to node467 {}
+	wan to node468 {}
+	wan to node469 {}
+	wan to node470 {}
+	wan to node471 {}
+	wan to node472 {}
+	wan to node473 {}
+	wan to node474 {}
+	wan to node475 {}
+	wan to node476 {}
+	wan to node477 {}
+	wan to node478 {}
+	wan to node479 {}
+	wan to node480 {}
+	wan to node481 {}
+	wan to node482 {}
+	wan to node483 {}
+	wan to node484 {}
+	wan to node485 {}
+	wan to node486 {}
+	wan to node487 {}
+	wan to node488 {}
+	wan to node489 {}
+	wan to node490 {}
+	wan to node491 {}
+	wan to node492 {}
+	wan to node493 {}
+	wan to node494 {}
+	wan to node495 {}
+	wan to node496 {}
+	wan to node497 {}
+	wan to node498 {}
+	wan to node499 {}
+	wan to node500 {}
+	wan to node501 {}
+	wan to node502 {}
+	wan to node503 {}
+	wan to node504 {}
+	wan to node505 {}
+	wan to node506 {}
+	wan to node507 {}
+	wan to node508 {}
+	wan to node509 {}
+	wan to node510 {}
+	wan to node511 {}
+	wan to node512 {}
+	wan to node513 {}
+	wan to node514 {}
+	wan to node515 {}
+	wan to node516 {}
+	wan to node517 {}
+	wan to node518 {}
+	wan to node519 {}
+	wan to node520 {}
+	wan to node521 {}
+	wan to node522 {}
+	wan to node523 {}
+	wan to node524 {}
+	wan to node525 {}
+	wan to node526 {}
+	wan to node527 {}
+	wan to node528 {}
+	wan to node529 {}
+	wan to node530 {}
+	wan to node531 {}
+	wan to node532 {}
+	wan to node533 {}
+	wan to node534 {}
+	wan to node535 {}
+	wan to node536 {}
+	wan to node537 {}
+	wan to node538 {}
+	wan to node539 {}
+	wan to node540 {}
+	wan to node541 {}
+	wan to node542 {}
+	wan to node543 {}
+	wan to node544 {}
+	wan to node545 {}
+	wan to node546 {}
+	wan to node547 {}
+	wan to node548 {}
+	wan to node549 {}
+	wan to node550 {}
+	wan to node551 {}
+	wan to node552 {}
+	wan to node553 {}
+	wan to node554 {}
+	wan to node555 {}
+	wan to node556 {}
+	wan to node557 {}
+	wan to node558 {}
+	wan to node559 {}
+	wan to node560 {}
+	wan to node561 {}
+	wan to node562 {}
+	wan to node563 {}
+	wan to node564 {}
+	wan to node565 {}
+	wan to node566 {}
+	wan to node567 {}
+	wan to node568 {}
+	wan to node569 {}
+	wan to node570 {}
+	wan to node571 {}
+	wan to node572 {}
+	wan to node573 {}
+	wan to node574 {}
+	wan to node575 {}
+	wan to node576 {}
+	wan to node577 {}
+	wan to node578 {}
+	wan to node579 {}
+	wan to node580 {}
+	wan to node581 {}
+	wan to node582 {}
+	wan to node583 {}
+	wan to node584 {}
+	wan to node585 {}
+	wan to node586 {}
+	wan to node587 {}
+	wan to node588 {}
+	wan to node589 {}
+	wan to node590 {}
+	wan to node591 {}
+	wan to node592 {}
+	wan to node593 {}
+	wan to node594 {}
+	wan to node595 {}
+	wan to node596 {}
+	wan to node597 {}
+	wan to node598 {}
+	wan to node599 {}
+	wan to node600 {}
+	wan to node601 {}
+	wan to node602 {}
+	wan to node603 {}
+	wan to node604 {}
+	wan to node605 {}
+	wan to node606 {}
+	wan to node607 {}
+	wan to node608 {}
+	wan to node609 {}
+	wan to node610 {}
+	wan to node611 {}
+	wan to node612 {}
+	wan to node613 {}
+	wan to node614 {}
+	wan to node615 {}
+	wan to node616 {}
+	wan to node617 {}
+	wan to node618 {}
+	wan to node619 {}
+	wan to node620 {}
+	wan to node621 {}
+	wan to node622 {}
+	wan to node623 {}
+	wan to node624 {}
+	wan to node625 {}
+	wan to node626 {}
+	wan to node627 {}
+	wan to node628 {}
+	wan to node629 {}
+	wan to node630 {}
+	wan to node631 {}
+	wan to node632 {}
+	wan to node633 {}
+	wan to node634 {}
+	wan to node635 {}
+	wan to node636 {}
+	wan to node637 {}
+	wan to node638 {}
+	wan to node639 {}
+	wan to node640 {}
+	wan to node641 {}
+	wan to node642 {}
+	wan to node643 {}
+	wan to node644 {}
+	wan to node645 {}
+	wan to node646 {}
+	wan to node647 {}
+	wan to node648 {}
+	wan to node649 {}
+	wan to node650 {}
+	wan to node651 {}
+	wan to node652 {}
+	wan to node653 {}
+	wan to node654 {}
+	wan to node655 {}
+	wan to node656 {}
+	wan to node657 {}
+	wan to node658 {}
+	wan to node659 {}
+	wan to node660 {}
+	wan to node661 {}
+	wan to node662 {}
+	wan to node663 {}
+	wan to node664 {}
+	wan to node665 {}
+	wan to node666 {}
+	wan to node667 {}
+	wan to node668 {}
+	wan to node669 {}
+	wan to node670 {}
+	wan to node671 {}
+	wan to node672 {}
+	wan to node673 {}
+	wan to node674 {}
+	wan to node675 {}
+	wan to node676 {}
+	wan to node677 {}
+	wan to node678 {}
+	wan to node679 {}
+	wan to node680 {}
+	wan to node681 {}
+	wan to node682 {}
+	wan to node683 {}
+	wan to node684 {}
+	wan to node685 {}
+	wan to node686 {}
+	wan to node687 {}
+	wan to node688 {}
+	wan to node689 {}
+	wan to node690 {}
+	wan to node691 {}
+	wan to node692 {}
+	wan to node693 {}
+	wan to node694 {}
+	wan to node695 {}
+	wan to node696 {}
+	wan to node697 {}
+	wan to node698 {}
+	wan to node699 {}
+	wan to node700 {}
+	wan to node701 {}
+	wan to node702 {}
+	wan to node703 {}
+	wan to node704 {}
+	wan to node705 {}
+	wan to node706 {}
+	wan to node707 {}
+	wan to node708 {}
+	wan to node709 {}
+	wan to node710 {}
+	wan to node711 {}
+	wan to node712 {}
+	wan to node713 {}
+	wan to node714 {}
+	wan to node715 {}
+	wan to node716 {}
+	wan to node717 {}
+	wan to node718 {}
+	wan to node719 {}
+	wan to node720 {}
+	wan to node721 {}
+	wan to node722 {}
+	wan to node723 {}
+	wan to node724 {}
+	wan to node725 {}
+	wan to node726 {}
+	wan to node727 {}
+	wan to node728 {}
+	wan to node729 {}
+	wan to node730 {}
+	wan to node731 {}
+	wan to node732 {}
+	wan to node733 {}
+	wan to node734 {}
+	wan to node735 {}
+	wan to node736 {}
+	wan to node737 {}
+	wan to node738 {}
+	wan to node739 {}
+	wan to node740 {}
+	wan to node741 {}
+	wan to node742 {}
+	wan to node743 {}
+	wan to node744 {}
+	wan to node745 {}
+	wan to node746 {}
+	wan to node747 {}
+	wan to node748 {}
+	wan to node749 {}
+	wan to node750 {}
+	wan to node751 {}
+	wan to node752 {}
+	wan to node753 {}
+	wan to node754 {}
+	wan to node755 {}
+	wan to node756 {}
+	wan to node757 {}
+	wan to node758 {}
+	wan to node759 {}
+	wan to node760 {}
+	wan to node761 {}
+	wan to node762 {}
+	wan to node763 {}
+	wan to node764 {}
+	wan to node765 {}
+	wan to node766 {}
+	wan to node767 {}
+	wan to node768 {}
+	wan to node769 {}
+	wan to node770 {}
+	wan to node771 {}
+	wan to node772 {}
+	wan to node773 {}
+	wan to node774 {}
+	wan to node775 {}
+	wan to node776 {}
+	wan to node777 {}
+	wan to node778 {}
+	wan to node779 {}
+	wan to node780 {}
+	wan to node781 {}
+	wan to node782 {}
+	wan to node783 {}
+	wan to node784 {}
+	wan to node785 {}
+	wan to node786 {}
+	wan to node787 {}
+	wan to node788 {}
+	wan to node789 {}
+	wan to node790 {}
+	wan to node791 {}
+	wan to node792 {}
+	wan to node793 {}
+	wan to node794 {}
+	wan to node795 {}
+	wan to node796 {}
+	wan to node797 {}
+	wan to node798 {}
+	wan to node799 {}
+	wan to node800 {}
+	wan to node801 {}
+	wan to node802 {}
+	wan to node803 {}
+	wan to node804 {}
+	wan to node805 {}
+	wan to node806 {}
+	wan to node807 {}
+	wan to node808 {}
+	wan to node809 {}
+	wan to node810 {}
+	wan to node811 {}
+	wan to node812 {}
+	wan to node813 {}
+	wan to node814 {}
+	wan to node815 {}
+	wan to node816 {}
+	wan to node817 {}
+	wan to node818 {}
+	wan to node819 {}
+	wan to node820 {}
+	wan to node821 {}
+	wan to node822 {}
+	wan to node823 {}
+	wan to node824 {}
+	wan to node825 {}
+	wan to node826 {}
+	wan to node827 {}
+	wan to node828 {}
+	wan to node829 {}
+	wan to node830 {}
+	wan to node831 {}
+	wan to node832 {}
+	wan to node833 {}
+	wan to node834 {}
+	wan to node835 {}
+	wan to node836 {}
+	wan to node837 {}
+	wan to node838 {}
+	wan to node839 {}
+	wan to node840 {}
+	wan to node841 {}
+	wan to node842 {}
+	wan to node843 {}
+	wan to node844 {}
+	wan to node845 {}
+	wan to node846 {}
+	wan to node847 {}
+	wan to node848 {}
+	wan to node849 {}
+	wan to node850 {}
+	wan to node851 {}
+	wan to node852 {}
+	wan to node853 {}
+	wan to node854 {}
+	wan to node855 {}
+	wan to node856 {}
+	wan to node857 {}
+	wan to node858 {}
+	wan to node859 {}
+	wan to node860 {}
+	wan to node861 {}
+	wan to node862 {}
+	wan to node863 {}
+	wan to node864 {}
+	wan to node865 {}
+	wan to node866 {}
+	wan to node867 {}
+	wan to node868 {}
+	wan to node869 {}
+	wan to node870 {}
+	wan to node871 {}
+	wan to node872 {}
+	wan to node873 {}
+	wan to node874 {}
+	wan to node875 {}
+	wan to node876 {}
+	wan to node877 {}
+	wan to node878 {}
+	wan to node879 {}
+	wan to node880 {}
+	wan to node881 {}
+	wan to node882 {}
+	wan to node883 {}
+	wan to node884 {}
+	wan to node885 {}
+	wan to node886 {}
+	wan to node887 {}
+	wan to node888 {}
+	wan to node889 {}
+	wan to node890 {}
+	wan to node891 {}
+	wan to node892 {}
+	wan to node893 {}
+	wan to node894 {}
+	wan to node895 {}
+	wan to node896 {}
+	wan to node897 {}
+	wan to node898 {}
+	wan to node899 {}
+	wan to node900 {}
+	wan to node901 {}
+	wan to node902 {}
+	wan to node903 {}
+	wan to node904 {}
+	wan to node905 {}
+	wan to node906 {}
+	wan to node907 {}
+	wan to node908 {}
+	wan to node909 {}
+	wan to node910 {}
+	wan to node911 {}
+	wan to node912 {}
+	wan to node913 {}
+	wan to node914 {}
+	wan to node915 {}
+	wan to node916 {}
+	wan to node917 {}
+	wan to node918 {}
+	wan to node919 {}
+	wan to node920 {}
+	wan to node921 {}
+	wan to node922 {}
+	wan to node923 {}
+	wan to node924 {}
+	wan to node925 {}
+	wan to node926 {}
+	wan to node927 {}
+	wan to node928 {}
+	wan to node929 {}
+	wan to node930 {}
+	wan to node931 {}
+	wan to node932 {}
+	wan to node933 {}
+	wan to node934 {}
+	wan to node935 {}
+	wan to node936 {}
+	wan to node937 {}
+	wan to node938 {}
+	wan to node939 {}
+	wan to node940 {}
+	wan to node941 {}
+	wan to node942 {}
+	wan to node943 {}
+	wan to node944 {}
+	wan to node945 {}
+	wan to node946 {}
+	wan to node947 {}
+	wan to node948 {}
+	wan to node949 {}
+	wan to node950 {}
+	wan to node951 {}
+	wan to node952 {}
+	wan to node953 {}
+	wan to node954 {}
+	wan to node955 {}
+	wan to node956 {}
+	wan to node957 {}
+	wan to node958 {}
+	wan to node959 {}
+	wan to node960 {}
+	wan to node961 {}
+	wan to node962 {}
+	wan to node963 {}
+	wan to node964 {}
+	wan to node965 {}
+	wan to node966 {}
+	wan to node967 {}
+	wan to node968 {}
+	wan to node969 {}
+	wan to node970 {}
+	wan to node971 {}
+	wan to node972 {}
+	wan to node973 {}
+	wan to node974 {}
+	wan to node975 {}
+	wan to node976 {}
+	wan to node977 {}
+	wan to node978 {}
+	wan to node979 {}
+	wan to node980 {}
+	wan to node981 {}
+	wan to node982 {}
+	wan to node983 {}
+	wan to node984 {}
+	wan to node985 {}
+	wan to node986 {}
+	wan to node987 {}
+	wan to node988 {}
+	wan to node989 {}
+	wan to node990 {}
+	wan to node991 {}
+	wan to node992 {}
+	wan to node993 {}
+	wan to node994 {}
+	wan to node995 {}
+	wan to node996 {}
+	wan to node997 {}
+	wan to node998 {}
+	wan to node999 {}
+	wan to node1000 {}
+	wan to node1001 {}
+	wan to node1002 {}
+	wan to node1003 {}
+	wan to node1004 {}
+	wan to node1005 {}
+	wan to node1006 {}
+	wan to node1007 {}
+	wan to node1008 {}
+	wan to node1009 {}
+	wan to node1010 {}
+	wan to node1011 {}
+	wan to node1012 {}
+	wan to node1013 {}
+	wan to node1014 {}
+	wan to node1015 {}
+	wan to node1016 {}
+	wan to node1017 {}
+	wan to node1018 {}
+	wan to node1019 {}
+	wan to node1020 {}
+	wan to node1021 {}
+	wan to node1022 {}
+	wan to node1023 {}
+}
+
+// List of devices
+host node1 {}
+host node2 {}
+host node3 {}
+host node4 {}
+host node5 {}
+host node6 {}
+host node7 {}
+host node8 {}
+host node9 {}
+host node10 {}
+host node11 {}
+host node12 {}
+host node13 {}
+host node14 {}
+host node15 {}
+host node16 {}
+host node17 {}
+host node18 {}
+host node19 {}
+host node20 {}
+host node21 {}
+host node22 {}
+host node23 {}
+host node24 {}
+host node25 {}
+host node26 {}
+host node27 {}
+host node28 {}
+host node29 {}
+host node30 {}
+host node31 {}
+host node32 {}
+host node33 {}
+host node34 {}
+host node35 {}
+host node36 {}
+host node37 {}
+host node38 {}
+host node39 {}
+host node40 {}
+host node41 {}
+host node42 {}
+host node43 {}
+host node44 {}
+host node45 {}
+host node46 {}
+host node47 {}
+host node48 {}
+host node49 {}
+host node50 {}
+host node51 {}
+host node52 {}
+host node53 {}
+host node54 {}
+host node55 {}
+host node56 {}
+host node57 {}
+host node58 {}
+host node59 {}
+host node60 {}
+host node61 {}
+host node62 {}
+host node63 {}
+host node64 {}
+host node65 {}
+host node66 {}
+host node67 {}
+host node68 {}
+host node69 {}
+host node70 {}
+host node71 {}
+host node72 {}
+host node73 {}
+host node74 {}
+host node75 {}
+host node76 {}
+host node77 {}
+host node78 {}
+host node79 {}
+host node80 {}
+host node81 {}
+host node82 {}
+host node83 {}
+host node84 {}
+host node85 {}
+host node86 {}
+host node87 {}
+host node88 {}
+host node89 {}
+host node90 {}
+host node91 {}
+host node92 {}
+host node93 {}
+host node94 {}
+host node95 {}
+host node96 {}
+host node97 {}
+host node98 {}
+host node99 {}
+host node100 {}
+host node101 {}
+host node102 {}
+host node103 {}
+host node104 {}
+host node105 {}
+host node106 {}
+host node107 {}
+host node108 {}
+host node109 {}
+host node110 {}
+host node111 {}
+host node112 {}
+host node113 {}
+host node114 {}
+host node115 {}
+host node116 {}
+host node117 {}
+host node118 {}
+host node119 {}
+host node120 {}
+host node121 {}
+host node122 {}
+host node123 {}
+host node124 {}
+host node125 {}
+host node126 {}
+host node127 {}
+host node128 {}
+host node129 {}
+host node130 {}
+host node131 {}
+host node132 {}
+host node133 {}
+host node134 {}
+host node135 {}
+host node136 {}
+host node137 {}
+host node138 {}
+host node139 {}
+host node140 {}
+host node141 {}
+host node142 {}
+host node143 {}
+host node144 {}
+host node145 {}
+host node146 {}
+host node147 {}
+host node148 {}
+host node149 {}
+host node150 {}
+host node151 {}
+host node152 {}
+host node153 {}
+host node154 {}
+host node155 {}
+host node156 {}
+host node157 {}
+host node158 {}
+host node159 {}
+host node160 {}
+host node161 {}
+host node162 {}
+host node163 {}
+host node164 {}
+host node165 {}
+host node166 {}
+host node167 {}
+host node168 {}
+host node169 {}
+host node170 {}
+host node171 {}
+host node172 {}
+host node173 {}
+host node174 {}
+host node175 {}
+host node176 {}
+host node177 {}
+host node178 {}
+host node179 {}
+host node180 {}
+host node181 {}
+host node182 {}
+host node183 {}
+host node184 {}
+host node185 {}
+host node186 {}
+host node187 {}
+host node188 {}
+host node189 {}
+host node190 {}
+host node191 {}
+host node192 {}
+host node193 {}
+host node194 {}
+host node195 {}
+host node196 {}
+host node197 {}
+host node198 {}
+host node199 {}
+host node200 {}
+host node201 {}
+host node202 {}
+host node203 {}
+host node204 {}
+host node205 {}
+host node206 {}
+host node207 {}
+host node208 {}
+host node209 {}
+host node210 {}
+host node211 {}
+host node212 {}
+host node213 {}
+host node214 {}
+host node215 {}
+host node216 {}
+host node217 {}
+host node218 {}
+host node219 {}
+host node220 {}
+host node221 {}
+host node222 {}
+host node223 {}
+host node224 {}
+host node225 {}
+host node226 {}
+host node227 {}
+host node228 {}
+host node229 {}
+host node230 {}
+host node231 {}
+host node232 {}
+host node233 {}
+host node234 {}
+host node235 {}
+host node236 {}
+host node237 {}
+host node238 {}
+host node239 {}
+host node240 {}
+host node241 {}
+host node242 {}
+host node243 {}
+host node244 {}
+host node245 {}
+host node246 {}
+host node247 {}
+host node248 {}
+host node249 {}
+host node250 {}
+host node251 {}
+host node252 {}
+host node253 {}
+host node254 {}
+host node255 {}
+host node256 {}
+host node257 {}
+host node258 {}
+host node259 {}
+host node260 {}
+host node261 {}
+host node262 {}
+host node263 {}
+host node264 {}
+host node265 {}
+host node266 {}
+host node267 {}
+host node268 {}
+host node269 {}
+host node270 {}
+host node271 {}
+host node272 {}
+host node273 {}
+host node274 {}
+host node275 {}
+host node276 {}
+host node277 {}
+host node278 {}
+host node279 {}
+host node280 {}
+host node281 {}
+host node282 {}
+host node283 {}
+host node284 {}
+host node285 {}
+host node286 {}
+host node287 {}
+host node288 {}
+host node289 {}
+host node290 {}
+host node291 {}
+host node292 {}
+host node293 {}
+host node294 {}
+host node295 {}
+host node296 {}
+host node297 {}
+host node298 {}
+host node299 {}
+host node300 {}
+host node301 {}
+host node302 {}
+host node303 {}
+host node304 {}
+host node305 {}
+host node306 {}
+host node307 {}
+host node308 {}
+host node309 {}
+host node310 {}
+host node311 {}
+host node312 {}
+host node313 {}
+host node314 {}
+host node315 {}
+host node316 {}
+host node317 {}
+host node318 {}
+host node319 {}
+host node320 {}
+host node321 {}
+host node322 {}
+host node323 {}
+host node324 {}
+host node325 {}
+host node326 {}
+host node327 {}
+host node328 {}
+host node329 {}
+host node330 {}
+host node331 {}
+host node332 {}
+host node333 {}
+host node334 {}
+host node335 {}
+host node336 {}
+host node337 {}
+host node338 {}
+host node339 {}
+host node340 {}
+host node341 {}
+host node342 {}
+host node343 {}
+host node344 {}
+host node345 {}
+host node346 {}
+host node347 {}
+host node348 {}
+host node349 {}
+host node350 {}
+host node351 {}
+host node352 {}
+host node353 {}
+host node354 {}
+host node355 {}
+host node356 {}
+host node357 {}
+host node358 {}
+host node359 {}
+host node360 {}
+host node361 {}
+host node362 {}
+host node363 {}
+host node364 {}
+host node365 {}
+host node366 {}
+host node367 {}
+host node368 {}
+host node369 {}
+host node370 {}
+host node371 {}
+host node372 {}
+host node373 {}
+host node374 {}
+host node375 {}
+host node376 {}
+host node377 {}
+host node378 {}
+host node379 {}
+host node380 {}
+host node381 {}
+host node382 {}
+host node383 {}
+host node384 {}
+host node385 {}
+host node386 {}
+host node387 {}
+host node388 {}
+host node389 {}
+host node390 {}
+host node391 {}
+host node392 {}
+host node393 {}
+host node394 {}
+host node395 {}
+host node396 {}
+host node397 {}
+host node398 {}
+host node399 {}
+host node400 {}
+host node401 {}
+host node402 {}
+host node403 {}
+host node404 {}
+host node405 {}
+host node406 {}
+host node407 {}
+host node408 {}
+host node409 {}
+host node410 {}
+host node411 {}
+host node412 {}
+host node413 {}
+host node414 {}
+host node415 {}
+host node416 {}
+host node417 {}
+host node418 {}
+host node419 {}
+host node420 {}
+host node421 {}
+host node422 {}
+host node423 {}
+host node424 {}
+host node425 {}
+host node426 {}
+host node427 {}
+host node428 {}
+host node429 {}
+host node430 {}
+host node431 {}
+host node432 {}
+host node433 {}
+host node434 {}
+host node435 {}
+host node436 {}
+host node437 {}
+host node438 {}
+host node439 {}
+host node440 {}
+host node441 {}
+host node442 {}
+host node443 {}
+host node444 {}
+host node445 {}
+host node446 {}
+host node447 {}
+host node448 {}
+host node449 {}
+host node450 {}
+host node451 {}
+host node452 {}
+host node453 {}
+host node454 {}
+host node455 {}
+host node456 {}
+host node457 {}
+host node458 {}
+host node459 {}
+host node460 {}
+host node461 {}
+host node462 {}
+host node463 {}
+host node464 {}
+host node465 {}
+host node466 {}
+host node467 {}
+host node468 {}
+host node469 {}
+host node470 {}
+host node471 {}
+host node472 {}
+host node473 {}
+host node474 {}
+host node475 {}
+host node476 {}
+host node477 {}
+host node478 {}
+host node479 {}
+host node480 {}
+host node481 {}
+host node482 {}
+host node483 {}
+host node484 {}
+host node485 {}
+host node486 {}
+host node487 {}
+host node488 {}
+host node489 {}
+host node490 {}
+host node491 {}
+host node492 {}
+host node493 {}
+host node494 {}
+host node495 {}
+host node496 {}
+host node497 {}
+host node498 {}
+host node499 {}
+host node500 {}
+host node501 {}
+host node502 {}
+host node503 {}
+host node504 {}
+host node505 {}
+host node506 {}
+host node507 {}
+host node508 {}
+host node509 {}
+host node510 {}
+host node511 {}
+host node512 {}		// Server
+host node513 {}
+host node514 {}
+host node515 {}
+host node516 {}
+host node517 {}
+host node518 {}
+host node519 {}
+host node520 {}
+host node521 {}
+host node522 {}
+host node523 {}
+host node524 {}
+host node525 {}
+host node526 {}
+host node527 {}
+host node528 {}
+host node529 {}
+host node530 {}
+host node531 {}
+host node532 {}
+host node533 {}
+host node534 {}
+host node535 {}
+host node536 {}
+host node537 {}
+host node538 {}
+host node539 {}
+host node540 {}
+host node541 {}
+host node542 {}
+host node543 {}
+host node544 {}
+host node545 {}
+host node546 {}
+host node547 {}
+host node548 {}
+host node549 {}
+host node550 {}
+host node551 {}
+host node552 {}
+host node553 {}
+host node554 {}
+host node555 {}
+host node556 {}
+host node557 {}
+host node558 {}
+host node559 {}
+host node560 {}
+host node561 {}
+host node562 {}
+host node563 {}
+host node564 {}
+host node565 {}
+host node566 {}
+host node567 {}
+host node568 {}
+host node569 {}
+host node570 {}
+host node571 {}
+host node572 {}
+host node573 {}
+host node574 {}
+host node575 {}
+host node576 {}
+host node577 {}
+host node578 {}
+host node579 {}
+host node580 {}
+host node581 {}
+host node582 {}
+host node583 {}
+host node584 {}
+host node585 {}
+host node586 {}
+host node587 {}
+host node588 {}
+host node589 {}
+host node590 {}
+host node591 {}
+host node592 {}
+host node593 {}
+host node594 {}
+host node595 {}
+host node596 {}
+host node597 {}
+host node598 {}
+host node599 {}
+host node600 {}
+host node601 {}
+host node602 {}
+host node603 {}
+host node604 {}
+host node605 {}
+host node606 {}
+host node607 {}
+host node608 {}
+host node609 {}
+host node610 {}
+host node611 {}
+host node612 {}
+host node613 {}
+host node614 {}
+host node615 {}
+host node616 {}
+host node617 {}
+host node618 {}
+host node619 {}
+host node620 {}
+host node621 {}
+host node622 {}
+host node623 {}
+host node624 {}
+host node625 {}
+host node626 {}
+host node627 {}
+host node628 {}
+host node629 {}
+host node630 {}
+host node631 {}
+host node632 {}
+host node633 {}
+host node634 {}
+host node635 {}
+host node636 {}
+host node637 {}
+host node638 {}
+host node639 {}
+host node640 {}
+host node641 {}
+host node642 {}
+host node643 {}
+host node644 {}
+host node645 {}
+host node646 {}
+host node647 {}
+host node648 {}
+host node649 {}
+host node650 {}
+host node651 {}
+host node652 {}
+host node653 {}
+host node654 {}
+host node655 {}
+host node656 {}
+host node657 {}
+host node658 {}
+host node659 {}
+host node660 {}
+host node661 {}
+host node662 {}
+host node663 {}
+host node664 {}
+host node665 {}
+host node666 {}
+host node667 {}
+host node668 {}
+host node669 {}
+host node670 {}
+host node671 {}
+host node672 {}
+host node673 {}
+host node674 {}
+host node675 {}
+host node676 {}
+host node677 {}
+host node678 {}
+host node679 {}
+host node680 {}
+host node681 {}
+host node682 {}
+host node683 {}
+host node684 {}
+host node685 {}
+host node686 {}
+host node687 {}
+host node688 {}
+host node689 {}
+host node690 {}
+host node691 {}
+host node692 {}
+host node693 {}
+host node694 {}
+host node695 {}
+host node696 {}
+host node697 {}
+host node698 {}
+host node699 {}
+host node700 {}
+host node701 {}
+host node702 {}
+host node703 {}
+host node704 {}
+host node705 {}
+host node706 {}
+host node707 {}
+host node708 {}
+host node709 {}
+host node710 {}
+host node711 {}
+host node712 {}
+host node713 {}
+host node714 {}
+host node715 {}
+host node716 {}
+host node717 {}
+host node718 {}
+host node719 {}
+host node720 {}
+host node721 {}
+host node722 {}
+host node723 {}
+host node724 {}
+host node725 {}
+host node726 {}
+host node727 {}
+host node728 {}
+host node729 {}
+host node730 {}
+host node731 {}
+host node732 {}
+host node733 {}
+host node734 {}
+host node735 {}
+host node736 {}
+host node737 {}
+host node738 {}
+host node739 {}
+host node740 {}
+host node741 {}
+host node742 {}
+host node743 {}
+host node744 {}
+host node745 {}
+host node746 {}
+host node747 {}
+host node748 {}
+host node749 {}
+host node750 {}
+host node751 {}
+host node752 {}
+host node753 {}
+host node754 {}
+host node755 {}
+host node756 {}
+host node757 {}
+host node758 {}
+host node759 {}
+host node760 {}
+host node761 {}
+host node762 {}
+host node763 {}
+host node764 {}
+host node765 {}
+host node766 {}
+host node767 {}
+host node768 {}
+host node769 {}
+host node770 {}
+host node771 {}
+host node772 {}
+host node773 {}
+host node774 {}
+host node775 {}
+host node776 {}
+host node777 {}
+host node778 {}
+host node779 {}
+host node780 {}
+host node781 {}
+host node782 {}
+host node783 {}
+host node784 {}
+host node785 {}
+host node786 {}
+host node787 {}
+host node788 {}
+host node789 {}
+host node790 {}
+host node791 {}
+host node792 {}
+host node793 {}
+host node794 {}
+host node795 {}
+host node796 {}
+host node797 {}
+host node798 {}
+host node799 {}
+host node800 {}
+host node801 {}
+host node802 {}
+host node803 {}
+host node804 {}
+host node805 {}
+host node806 {}
+host node807 {}
+host node808 {}
+host node809 {}
+host node810 {}
+host node811 {}
+host node812 {}
+host node813 {}
+host node814 {}
+host node815 {}
+host node816 {}
+host node817 {}
+host node818 {}
+host node819 {}
+host node820 {}
+host node821 {}
+host node822 {}
+host node823 {}
+host node824 {}
+host node825 {}
+host node826 {}
+host node827 {}
+host node828 {}
+host node829 {}
+host node830 {}
+host node831 {}
+host node832 {}
+host node833 {}
+host node834 {}
+host node835 {}
+host node836 {}
+host node837 {}
+host node838 {}
+host node839 {}
+host node840 {}
+host node841 {}
+host node842 {}
+host node843 {}
+host node844 {}
+host node845 {}
+host node846 {}
+host node847 {}
+host node848 {}
+host node849 {}
+host node850 {}
+host node851 {}
+host node852 {}
+host node853 {}
+host node854 {}
+host node855 {}
+host node856 {}
+host node857 {}
+host node858 {}
+host node859 {}
+host node860 {}
+host node861 {}
+host node862 {}
+host node863 {}
+host node864 {}
+host node865 {}
+host node866 {}
+host node867 {}
+host node868 {}
+host node869 {}
+host node870 {}
+host node871 {}
+host node872 {}
+host node873 {}
+host node874 {}
+host node875 {}
+host node876 {}
+host node877 {}
+host node878 {}
+host node879 {}
+host node880 {}
+host node881 {}
+host node882 {}
+host node883 {}
+host node884 {}
+host node885 {}
+host node886 {}
+host node887 {}
+host node888 {}
+host node889 {}
+host node890 {}
+host node891 {}
+host node892 {}
+host node893 {}
+host node894 {}
+host node895 {}
+host node896 {}
+host node897 {}
+host node898 {}
+host node899 {}
+host node900 {}
+host node901 {}
+host node902 {}
+host node903 {}
+host node904 {}
+host node905 {}
+host node906 {}
+host node907 {}
+host node908 {}
+host node909 {}
+host node910 {}
+host node911 {}
+host node912 {}
+host node913 {}
+host node914 {}
+host node915 {}
+host node916 {}
+host node917 {}
+host node918 {}
+host node919 {}
+host node920 {}
+host node921 {}
+host node922 {}
+host node923 {}
+host node924 {}
+host node925 {}
+host node926 {}
+host node927 {}
+host node928 {}
+host node929 {}
+host node930 {}
+host node931 {}
+host node932 {}
+host node933 {}
+host node934 {}
+host node935 {}
+host node936 {}
+host node937 {}
+host node938 {}
+host node939 {}
+host node940 {}
+host node941 {}
+host node942 {}
+host node943 {}
+host node944 {}
+host node945 {}
+host node946 {}
+host node947 {}
+host node948 {}
+host node949 {}
+host node950 {}
+host node951 {}
+host node952 {}
+host node953 {}
+host node954 {}
+host node955 {}
+host node956 {}
+host node957 {}
+host node958 {}
+host node959 {}
+host node960 {}
+host node961 {}
+host node962 {}
+host node963 {}
+host node964 {}
+host node965 {}
+host node966 {}
+host node967 {}
+host node968 {}
+host node969 {}
+host node970 {}
+host node971 {}
+host node972 {}
+host node973 {}
+host node974 {}
+host node975 {}
+host node976 {}
+host node977 {}
+host node978 {}
+host node979 {}
+host node980 {}
+host node981 {}
+host node982 {}
+host node983 {}
+host node984 {}
+host node985 {}
+host node986 {}
+host node987 {}
+host node988 {}
+host node989 {}
+host node990 {}
+host node991 {}
+host node992 {}
+host node993 {}
+host node994 {}
+host node995 {}
+host node996 {}
+host node997 {}
+host node998 {}
+host node999 {}
+host node1000 {}
+host node1001 {}
+host node1002 {}
+host node1003 {}
+host node1004 {}
+host node1005 {}
+host node1006 {}
+host node1007 {}
+host node1008 {}
+host node1009 {}
+host node1010 {}
+host node1011 {}
+host node1012 {}
+host node1013 {}
+host node1014 {}
+host node1015 {}
+host node1016 {}
+host node1017 {}
+host node1018 {}
+host node1019 {}
+host node1020 {}
+host node1021 {}
+host node1022 {}
+host node1023 {}
+

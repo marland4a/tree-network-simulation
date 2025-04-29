@@ -1,0 +1,308 @@
+     0.000100  node0(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+     0.000101  node1(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000102  node2(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000103  node3(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000104  node4(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000105  node5(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000106  node6(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000107  node7(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000108  node8(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000109  node9(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000110  node10(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000111  node11(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000112  node12(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000113  node13(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000114  node14(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000115  node15(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000116  node16(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+               CNET_set_handler(EV_TIMER1, &handler, 0) = 0
+               CNET_start_timer(EV_TIMER1, usec=200000, data=0x7ffd06a04e20) = 1000
+     0.000117  node17(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000118  node18(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000119  node19(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000120  node20(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000121  node21(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000122  node22(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000123  node23(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000124  node24(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000125  node25(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000126  node26(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000127  node27(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000128  node28(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000129  node29(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000130  node30(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.000131  node31(EV_REBOOT, NULLTIMER, data=0x7ffd06a04d78)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+     0.200116  node16(EV_TIMER1, timer=1000, data=0x7ffd06a04da8)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.210326  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=16, *len=2576)
+               CNET_write_physical_reliable(link=8, &frame, *len=2576) = 0 (*len=2576)
+     0.210536  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=16, *len=2576)
+               CNET_write_physical_reliable(link=24, &frame, *len=2576) = 0 (*len=2576)
+     0.220536  node8(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 8 received packet from 16 after 0.00020420 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.220746  node24(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 24 received packet from 16 after 0.00020630 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.230746  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=8, *len=2576)
+               CNET_write_physical_reliable(link=4, &frame, *len=2576) = 0 (*len=2576)
+     0.230956  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=8, *len=2576)
+               CNET_write_physical_reliable(link=12, &frame, *len=2576) = 0 (*len=2576)
+     0.230956  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=24, *len=2576)
+               CNET_write_physical_reliable(link=20, &frame, *len=2576) = 0 (*len=2576)
+     0.231166  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=24, *len=2576)
+               CNET_write_physical_reliable(link=28, &frame, *len=2576) = 0 (*len=2576)
+     0.240956  node4(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 4 received packet from 8 after 0.00040840 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.241166  node12(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 12 received packet from 8 after 0.00041050 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.241166  node20(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 20 received packet from 24 after 0.00041050 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.241376  node28(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 28 received packet from 24 after 0.00041260 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.251166  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=4, *len=2576)
+               CNET_write_physical_reliable(link=2, &frame, *len=2576) = 0 (*len=2576)
+     0.251376  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=4, *len=2576)
+               CNET_write_physical_reliable(link=6, &frame, *len=2576) = 0 (*len=2576)
+     0.251376  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=12, *len=2576)
+               CNET_write_physical_reliable(link=10, &frame, *len=2576) = 0 (*len=2576)
+     0.251376  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=20, *len=2576)
+               CNET_write_physical_reliable(link=18, &frame, *len=2576) = 0 (*len=2576)
+     0.251586  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=20, *len=2576)
+               CNET_write_physical_reliable(link=22, &frame, *len=2576) = 0 (*len=2576)
+     0.251586  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=28, *len=2576)
+               CNET_write_physical_reliable(link=26, &frame, *len=2576) = 0 (*len=2576)
+     0.251586  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=12, *len=2576)
+               CNET_write_physical_reliable(link=14, &frame, *len=2576) = 0 (*len=2576)
+     0.251796  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=28, *len=2576)
+               CNET_write_physical_reliable(link=30, &frame, *len=2576) = 0 (*len=2576)
+     0.261376  node2(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 2 received packet from 4 after 0.00061260 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261586  node6(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 6 received packet from 4 after 0.00061470 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261586  node10(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 10 received packet from 12 after 0.00061470 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261586  node18(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 18 received packet from 20 after 0.00061470 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261796  node22(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 22 received packet from 20 after 0.00061680 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261796  node14(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 14 received packet from 12 after 0.00061680 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.261796  node26(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 26 received packet from 28 after 0.00061680 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.262006  node30(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 30 received packet from 28 after 0.00061890 secs
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.271586  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=2, *len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.271796  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=18, *len=2576)
+               CNET_write_physical_reliable(link=17, &frame, *len=2576) = 0 (*len=2576)
+     0.271796  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=2, *len=2576)
+               CNET_write_physical_reliable(link=3, &frame, *len=2576) = 0 (*len=2576)
+     0.271796  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=10, *len=2576)
+               CNET_write_physical_reliable(link=9, &frame, *len=2576) = 0 (*len=2576)
+     0.271796  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=6, *len=2576)
+               CNET_write_physical_reliable(link=5, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=14, *len=2576)
+               CNET_write_physical_reliable(link=13, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=26, *len=2576)
+               CNET_write_physical_reliable(link=25, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=10, *len=2576)
+               CNET_write_physical_reliable(link=11, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=22, *len=2576)
+               CNET_write_physical_reliable(link=21, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=6, *len=2576)
+               CNET_write_physical_reliable(link=7, &frame, *len=2576) = 0 (*len=2576)
+     0.272006  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=18, *len=2576)
+               CNET_write_physical_reliable(link=19, &frame, *len=2576) = 0 (*len=2576)
+     0.272216  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=26, *len=2576)
+               CNET_write_physical_reliable(link=27, &frame, *len=2576) = 0 (*len=2576)
+     0.272216  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=30, *len=2576)
+               CNET_write_physical_reliable(link=29, &frame, *len=2576) = 0 (*len=2576)
+     0.272216  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=22, *len=2576)
+               CNET_write_physical_reliable(link=23, &frame, *len=2576) = 0 (*len=2576)
+     0.272216  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=14, *len=2576)
+               CNET_write_physical_reliable(link=15, &frame, *len=2576) = 0 (*len=2576)
+     0.272426  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=30, *len=2576)
+               CNET_write_physical_reliable(link=31, &frame, *len=2576) = 0 (*len=2576)
+     0.281796  node1(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 1 received packet from 2 after 0.00081680 secs
+     0.282006  node17(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 17 received packet from 18 after 0.00081890 secs
+     0.282006  node5(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 5 received packet from 6 after 0.00081890 secs
+     0.282006  node3(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 3 received packet from 2 after 0.00081890 secs
+     0.282006  node9(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 9 received packet from 10 after 0.00081890 secs
+     0.282216  node7(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 7 received packet from 6 after 0.00082100 secs
+     0.282216  node19(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 19 received packet from 18 after 0.00082100 secs
+     0.282216  node25(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 25 received packet from 26 after 0.00082100 secs
+     0.282216  node21(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 21 received packet from 22 after 0.00082100 secs
+     0.282216  node13(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 13 received packet from 14 after 0.00082100 secs
+     0.282216  node11(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 11 received packet from 10 after 0.00082100 secs
+     0.282426  node23(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 23 received packet from 22 after 0.00082310 secs
+     0.282426  node15(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 15 received packet from 14 after 0.00082310 secs
+     0.282426  node27(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 27 received packet from 26 after 0.00082310 secs
+     0.282426  node29(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 29 received packet from 30 after 0.00082310 secs
+     0.282636  node31(EV_PHYSICALREADY, NULLTIMER, data=0x7ffd06a04da8)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 31 received packet from 30 after 0.00082520 secs

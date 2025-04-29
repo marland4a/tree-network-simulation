@@ -1,0 +1,68 @@
+
+// Topology file for the tree network simulation
+// DEMO with LAN segments
+//
+// The network has a star topology with one central router
+// to which every node is connected via a separate LAN
+// link/segment.
+// Alternatively, all nodes may be connected to the same
+// LAN segment, resulting in the same, but bandwidth limited,
+// network topology.
+
+compile = "network_simulation.c"
+
+messagerate = 2000ms
+
+
+// Size of the network provided to the protocol implementation.
+// sizeofnetwork = nodeN + 1
+//sizeofnetwork = 4
+// This is provided by NNODES if -N switch is used
+
+
+// WAN segments
+// Each node is connected to the central router via an own
+// LAN segment. It is named by the node.
+lansegment lan1 {
+  lan-bandwidth   = 100Mbps
+}
+lansegment lan2 {
+  lan-bandwidth   = 100Mbps
+}
+lansegment lan3 {
+  lan-bandwidth   = 100Mbps
+}
+
+
+// Central router
+//host node0 {
+router node0 {
+  lan to lan1 {
+    nicaddr = 0
+  }
+  lan to lan2 {
+    nicaddr = 0
+  }
+  lan to lan3 {
+    nicaddr = 0
+  }
+}
+
+// List of devices
+host node1 {
+  lan to lan1 {
+    nicaddr = 1
+  }
+}
+
+host node2 {
+  lan to lan2 {
+    nicaddr = 2
+  }
+}
+
+host node3 {
+  lan to lan3 {
+    nicaddr = 3
+  }
+}

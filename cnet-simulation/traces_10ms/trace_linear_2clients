@@ -1,0 +1,19 @@
+     0.000100  node0(EV_REBOOT, NULLTIMER, data=0x7ffe15877b08)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+     0.000101  node1(EV_REBOOT, NULLTIMER, data=0x7ffe15877b08)
+               CNET_set_handler(EV_PHYSICALREADY, &handler, 0) = 0
+               CNET_set_handler(EV_APPLICATIONREADY, &handler, 0) = 0
+               CNET_set_handler(EV_TIMER1, &handler, 0) = 0
+               CNET_start_timer(EV_TIMER1, usec=200000, data=0x7ffe15877bb0) = 1000
+     0.200101  node1(EV_TIMER1, timer=1000, data=0x7ffe15877b38)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.210311  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffe15877b38)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 0 received packet from 1 after 0.00010210 secs
+     0.210521  node0(EV_PHYSICALREADY, NULLTIMER, data=0x7ffe15877b38)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               CNET_write_physical_reliable(link=1, &frame, *len=2576) = 0 (*len=2576)
+     0.220731  node1(EV_PHYSICALREADY, NULLTIMER, data=0x7ffe15877b38)
+               CNET_read_physical(&destlink, &frame, *len=2576) = 0 (link=1, *len=2576)
+               Node 1 received packet from 1 after 0.00020630 secs

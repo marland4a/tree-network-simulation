@@ -1,0 +1,167 @@
+
+// Generated Topology file for the tree network simulation
+// with 8 clients, one server and one central router
+//
+// The network has a star topology with one central router
+// to which every node is connected via a separate LAN
+// link/segment.
+// Alternatively, all nodes may be connected to the same
+// LAN segment, resulting in the same, but bandwidth limited,
+// network topology.
+
+compile = "network_simulation.c"
+
+messagerate = 1000ms
+maxmessagesize = 2KB
+
+
+// Size of the network provided to the protocol implementation.
+// sizeofnetwork = nodeN + 1
+//sizeofnetwork = 4
+// This is provided by NNODES if -N switch is used
+
+
+// WAN links
+// Each node is connected to the central router via an own
+// WAN link. It is named by the node.
+// LAN segments may be used instead, but as every connection
+// is one-to-one, there should be no difference.
+// To simulate a vehicular LAN segment, 100Mbps bandwidth
+// and 1ms latency is defined.
+wan-bandwidth   = 100Mbps
+wan-propagationdelay = 1ms
+
+
+// Central router
+host node0 {
+//router node0 {
+	wan to node1 {}
+	wan to node2 {}
+	wan to node3 {}
+	wan to node4 {}
+	wan to node5 {}
+	wan to node6 {}
+	wan to node7 {}
+	wan to node8 {}
+	wan to node9 {}
+	wan to node10 {}
+	wan to node11 {}
+	wan to node12 {}
+	wan to node13 {}
+	wan to node14 {}
+	wan to node15 {}
+	wan to node16 {}
+	wan to node17 {}
+	wan to node18 {}
+	wan to node19 {}
+	wan to node20 {}
+	wan to node21 {}
+	wan to node22 {}
+	wan to node23 {}
+	wan to node24 {}
+	wan to node25 {}
+	wan to node26 {}
+	wan to node27 {}
+	wan to node28 {}
+	wan to node29 {}
+	wan to node30 {}
+	wan to node31 {}
+	wan to node32 {}
+	wan to node33 {}
+	wan to node34 {}
+	wan to node35 {}
+	wan to node36 {}
+	wan to node37 {}
+	wan to node38 {}
+	wan to node39 {}
+	wan to node40 {}
+	wan to node41 {}
+	wan to node42 {}
+	wan to node43 {}
+	wan to node44 {}
+	wan to node45 {}
+	wan to node46 {}
+	wan to node47 {}
+	wan to node48 {}
+	wan to node49 {}
+	wan to node50 {}
+	wan to node51 {}
+	wan to node52 {}
+	wan to node53 {}
+	wan to node54 {}
+	wan to node55 {}
+	wan to node56 {}
+	wan to node57 {}
+	wan to node58 {}
+	wan to node59 {}
+	wan to node60 {}
+	wan to node61 {}
+	wan to node62 {}
+	wan to node63 {}
+}
+
+// List of devices
+host node1 {}
+host node2 {}
+host node3 {}
+host node4 {}
+host node5 {}
+host node6 {}
+host node7 {}
+host node8 {}
+host node9 {}
+host node10 {}
+host node11 {}
+host node12 {}
+host node13 {}
+host node14 {}
+host node15 {}
+host node16 {}
+host node17 {}
+host node18 {}
+host node19 {}
+host node20 {}
+host node21 {}
+host node22 {}
+host node23 {}
+host node24 {}
+host node25 {}
+host node26 {}
+host node27 {}
+host node28 {}
+host node29 {}
+host node30 {}
+host node31 {}
+host node32 {}		// Server
+host node33 {}
+host node34 {}
+host node35 {}
+host node36 {}
+host node37 {}
+host node38 {}
+host node39 {}
+host node40 {}
+host node41 {}
+host node42 {}
+host node43 {}
+host node44 {}
+host node45 {}
+host node46 {}
+host node47 {}
+host node48 {}
+host node49 {}
+host node50 {}
+host node51 {}
+host node52 {}
+host node53 {}
+host node54 {}
+host node55 {}
+host node56 {}
+host node57 {}
+host node58 {}
+host node59 {}
+host node60 {}
+host node61 {}
+host node62 {}
+host node63 {}
+

@@ -1,0 +1,43 @@
+
+// Generated Topology file for the tree network simulation
+// with 8 clients, one server and one central router
+//
+// The network has a star topology with one central router
+// to which every node is connected via a separate LAN
+// link/segment.
+// Alternatively, all nodes may be connected to the same
+// LAN segment, resulting in the same, but bandwidth limited,
+// network topology.
+
+compile = "network_simulation.c"
+
+messagerate = 1000ms
+maxmessagesize = 2KB
+
+
+// Size of the network provided to the protocol implementation.
+// sizeofnetwork = nodeN + 1
+//sizeofnetwork = 4
+// This is provided by NNODES if -N switch is used
+
+
+// WAN links
+// Each node is connected to the central router via an own
+// WAN link. It is named by the node.
+// LAN segments may be used instead, but as every connection
+// is one-to-one, there should be no difference.
+// To simulate a vehicular LAN segment, 100Mbps bandwidth
+// and 1ms latency is defined.
+wan-bandwidth   = 100Mbps
+wan-propagationdelay = 1ms
+
+
+// Central router
+host node0 {
+//router node0 {
+	wan to node1 {}
+}
+
+// List of devices
+host node1 {}		// Server
+
